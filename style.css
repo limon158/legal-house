@@ -1,0 +1,137 @@
+/* common classes */
+.garamond {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+}
+.card-arrow {
+  color: #b68c5a;
+  font-size: 24px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+.btn-style-overwrite {
+  color: white;
+  background-color: #b68c5a;
+  border: #b68c5a;
+  height: 64px;
+  padding: 0 30px;
+}
+.banner-bg {
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-title {
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  font-size: 72px;
+}
+.banner-description {
+  color: #e7e7e7;
+}
+.input-style-overwrite {
+  height: 64px;
+}
+.second-card-overwrite-style {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.title {
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #414040;
+}
+.description {
+  color: #707070;
+}
+.clients-profile {
+  width: 100px;
+  height: 100px;
+}
+.footer {
+  background-color: #111111;
+  padding: 50px 10%;
+  
+}
+.footer-title {
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+.footer-description {
+  color: #cfcfcf;
+  font-size: 15px;
+}
+.footer-input-style-overwrite{
+  background-color: white;
+  color: #cfcfcf;
+  height: 72px;
+  padding: 0 30px;
+  border-radius: 10px;
+  position: absolute;
+  border: 0;
+}
+.footer-btn-style-overwrite {
+  color: white;
+  background-color: #b68c5a;
+  border: #b68c5a;
+  height: 72px;
+  padding: 0 30px;
+  border-radius: 10px;
+  position: relative;
+  left: 200px;
+  top: 0px;
+}
+/* media quary  */
+@media screen and (max-width: 576px) {
+  .garamond {
+    font-size: 25px;
+  }
+  .banner-title {
+    font-size: 35px;
+  }
+  .banner-description {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  #title-sm-device {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 15px;
+  }
+  .clients-profile {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 568px) and (max-width: 992px) {
+  .garamond {
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+  }
+  .banner-title {
+    font-size: 45px;
+  }
+  .title {
+    font-family: "EB Garamond", serif;
+
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .banner-bg {
+    height: 80vh;
+  }
+  .input-style-overwrite {
+    width: 400px;
+  }
+}
